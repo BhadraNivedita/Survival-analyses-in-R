@@ -38,3 +38,12 @@ library(dplyr)
 library(ggfortify)
 
 ```
+
+
+Reading the first few lines
+
+```
+data(veteran)
+head(veteran)
+```
+
