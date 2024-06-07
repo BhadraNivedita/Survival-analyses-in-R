@@ -186,3 +186,6 @@ p <- ggplot(plot_df, aes(x = Time, y = Surv, color = Model))
 p + geom_line()
 
 ```
+
+
+Reference webpage: ##https://rviews.rstudio.com/2017/09/25/survival-analysis-with-r/ 
