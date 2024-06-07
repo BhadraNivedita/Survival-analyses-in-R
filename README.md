@@ -51,5 +51,6 @@ Kaplan Meier Survival Curve
 
 ``
 km <- with(veteran, Surv(time, status))
+
 head(km,80)
 ``
