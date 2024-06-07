@@ -27,3 +27,14 @@ Here are the fundamental concepts and basic methods used in survival analysis:
 10. **Proportional Hazards Assumption**: When using the Cox proportional-hazards model, it's essential to check the proportional hazards assumption, which assumes that the hazard ratio remains constant over time. Violations of this assumption may require stratified analysis or other model adjustments.
 
 Survival analysis is applied in various fields, including healthcare, engineering, finance, and social sciences, where understanding the time to event is crucial. It provides insights into event-related risks, allows for the comparison of different groups or treatments, and helps researchers make informed decisions based on time-to-event data.
+
+
+```
+##https://rviews.rstudio.com/2017/09/25/survival-analysis-with-r/
+library(survival)
+library(ranger)
+library(ggplot2)
+library(dplyr)
+library(ggfortify)
+
+```
